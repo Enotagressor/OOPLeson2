@@ -26,10 +26,10 @@ public class Main {
             transports[i + bicycle.length + car.length] = truck[i];
         }
 
-        ServiceStationForEmployee station = new ServiceStationForEmployee();
-        station.check(car);
-        station.check(bicycle);
-        station.check(truck);
+        ServiceStation station = new ServiceStation();
+        station.check(car[0]);
+        station.check(bicycle[1]);
+        station.check(truck[1]);
 
     }
 }
